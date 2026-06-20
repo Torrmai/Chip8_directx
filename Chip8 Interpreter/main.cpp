@@ -41,7 +41,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE, LPSTR, int)
     RegisterClassEx(&wc);
 
     HWND hwnd = CreateWindowEx(
-        0, L"Chip8WindowClass", L"DirectX Test",
+        0, L"Chip8WindowClass", L"Chip8 DirectX V0.01",
         WS_OVERLAPPEDWINDOW,
         CW_USEDEFAULT, CW_USEDEFAULT, 640, 320,
         nullptr, nullptr, hInstance, nullptr);

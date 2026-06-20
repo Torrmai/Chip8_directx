@@ -328,7 +328,7 @@ std::wstring Chip8::OpenFileDialog()
 	wchar_t file_name[MAX_PATH] = L"";
 	OPENFILENAMEW ofn{};
 	ofn.lStructSize = sizeof(ofn);
-	ofn.lpstrFilter = L"CHIP-8 ROMs (*.ch8)\0*.ch8\0All Files (*.*)\0*.*\0";
+	ofn.lpstrFilter = L"CHIP-8 ROMs (*.ch8)\0*.ch8\0CHIP-8 ROMs (*.c8)\0*.c8\0All Files (*.*)\0*.*\0";
 	ofn.lpstrFile = file_name;
 	ofn.nMaxFile = MAX_PATH;
 	ofn.Flags = OFN_FILEMUSTEXIST | OFN_PATHMUSTEXIST;
