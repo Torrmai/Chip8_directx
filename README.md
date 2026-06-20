@@ -22,3 +22,6 @@ Requires Visual Studio 2022 or later, with the "Desktop development with C++" wo
 
 ## License
 MIT
+
+## Acknowledgments
+Built with guidance and pair-programming support from Claude (Anthropic).
